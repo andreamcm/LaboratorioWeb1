@@ -6,8 +6,14 @@
     lab1.css
 */
 
-.barra{
-    background: #171e27;;
+/*Indica tipo de letra de toda la pagina*/
+body{
+    font-family: sans-serif;
+}
+
+/*Partes de la barra de hasta arriba*/
+.bar{
+    background: #171e27;
     height: 70px;
     width: 100%;
     position: absolute;
@@ -16,13 +22,50 @@
 }
 
 img {
-    height: 35px;
-    width: 35px;
+    height: 55px;
+    width: 310px;
     margin-left: 355px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
-.nombre{
-    color: greenyellow;
-    height: 35px;
-    width: 35px;
+
+input {
+    height: 40px;
+    width: 310px;
+    margin-left: 470px;
+    margin-top: 15px;
+    background-color: #171e27;
+    color: gray;
+    position: absolute;
+    font-size: 14;
+}
+
+button {
+    background: green;
+    color: white;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 15px;
+    height: 40px;
+    width: 100px;
+    font-size: 14;
+
+}
+
+p {
+    color: gray;
+    position: absolute;
+    margin-left: 1600px;
+    margin-top: -40px;
+    font-size: 14;
+}
+    
+/*Segunda Seccion*/
+firstSecion{
+    background: #171e27;
+    height: 500px;
+    width: 100px;
+    position: relative;
+    top: 70px;
+    left: 0%;
+
 }
