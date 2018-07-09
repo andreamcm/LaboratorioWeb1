@@ -1,0 +1,28 @@
+/*
+    Universidad del Valle de Guatemala
+    Andrea Maria Cordon Mayen
+    Carne: 16077
+    Fecha de entrega: 08/07/2018
+    lab1.css
+*/
+
+.barra{
+    background: #171e27;;
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+img {
+    height: 35px;
+    width: 35px;
+    margin-left: 355px;
+    margin-top: 20px;
+}
+.nombre{
+    color: greenyellow;
+    height: 35px;
+    width: 35px;
+}
